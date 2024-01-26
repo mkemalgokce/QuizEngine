@@ -19,7 +19,7 @@ let package = Package(
             path: "QuizEngine"),
         .testTarget(
             name: "QuizEngineTests",
-            path: "QuizEngineTests"
+            path: "QuizEngineTests",
             dependencies: ["QuizEngine"]),
     ]
 )
