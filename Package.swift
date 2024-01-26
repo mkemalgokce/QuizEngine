@@ -21,7 +21,6 @@ let package = Package(
         .testTarget(
             name: "QuizEngineTests",
             dependencies: ["QuizEngine"],
-            path: "QuizEngineTests",
-        )
+            path: "QuizEngineTests")
     ]
 )
